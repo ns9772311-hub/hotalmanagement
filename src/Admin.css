@@ -1,0 +1,66 @@
+.admin-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+.admin-container h2 {
+  font-size: 38px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.admin-subtitle {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.admin-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+.admin-section h3 {
+  color: #ffcc00;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+  font-size: 15px;
+}
+
+.admin-table th {
+  background-color: #222;
+  color: #ffcc00;
+}
+
+.admin-table td {
+  color: #ddd;
+}
+
+.status-badge {
+  background: rgba(255, 204, 0, 0.15);
+  color: #ffcc00;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+}

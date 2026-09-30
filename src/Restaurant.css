@@ -1,0 +1,106 @@
+/* Restaurant Page Styling */
+.restaurant-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 40px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.restaurant-container h2 {
+  font-size: 40px;
+  color: #ffcc00;
+  margin-bottom: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.restaurant-subtitle {
+  font-size: 18px;
+  color: #cccccc;
+  margin-bottom: 50px;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-card {
+  background: #1e1e1e;
+  width: 360px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+  border: 1px solid #333;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(255, 204, 0, 0.2);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #333;
+}
+
+.menu-info {
+  padding: 25px;
+}
+
+.category-tag {
+  display: inline-block;
+  background-color: #333;
+  color: #ffcc00;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.menu-info h3 {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.menu-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 12px;
+}
+
+.menu-desc {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00;
+  color: #121212;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e6b800;
+}

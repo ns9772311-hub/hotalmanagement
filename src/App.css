@@ -1,0 +1,72 @@
+/* Poori website ke liye reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Stacked Luxury Navbar Styling (Name on top, options below) */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Hotel Brand Logo (Top Center) */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffcc00;
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+/* Navigation Links Container (Bottom Center) */
+.navbar nav {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual Links Style */
+.navbar nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect for Links */
+.navbar nav a:hover {
+  color: #ffcc00;
+  background-color: rgba(255, 204, 0, 0.1);
+}

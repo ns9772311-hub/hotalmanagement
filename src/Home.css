@@ -1,0 +1,127 @@
+/* Home Page Styling */
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-content h1 {
+  font-size: 45px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.book-btn {
+  background-color: #ffcc00;
+  color: #121212;
+  border: none;
+  padding: 14px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 204, 0, 0.3);
+}
+
+.book-btn:hover {
+  background-color: #e6b800;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 204, 0, 0.5);
+}
+
+/* About Section */
+.about-section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 35px;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #b0b0b0;
+  line-height: 1.6;
+}
+
+/* Features / Facilities Section */
+.features-section {
+  padding: 60px 20px 100px 20px;
+  background-color: #181818;
+}
+
+.features-section h2 {
+  font-size: 35px;
+  color: #ffcc00;
+  margin-bottom: 45px;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  padding: 35px 25px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: left;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: #ffcc00;
+}
+
+.feature-card h3 {
+  font-size: 22px;
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #aaaaaa;
+  line-height: 1.5;
+}
